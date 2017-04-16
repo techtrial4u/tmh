@@ -1,8 +1,6 @@
 package org.extras.exceptions;
 
-/**
- * Created by Anand_Rajneesh on 3/3/2017.
- */
+
 public class ReadableException extends Exception {
 
     public ReadableException() {
