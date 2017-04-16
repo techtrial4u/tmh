@@ -11,9 +11,7 @@ import java.io.File;
 import java.io.Serializable;
 import java.util.List;
 
-/**
- * Created by Anand_Rajneesh on 3/3/2017.
- */
+
 @Component
 @ConfigurationProperties
 public class Configuration {

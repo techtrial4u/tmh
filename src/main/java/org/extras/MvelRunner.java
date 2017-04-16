@@ -9,9 +9,7 @@ import java.io.Serializable;
 import java.util.Date;
 import java.util.Map;
 
-/**
- * Created by Anand_Rajneesh on 3/8/2017.
- */
+
 @Component
 public class MvelRunner {
 
