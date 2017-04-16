@@ -14,9 +14,7 @@ import java.io.OutputStream;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * Created by Anand_Rajneesh on 3/8/2017.
- */
+
 public class DocPdfUtil {
 
     public static void createPdfFromDoc(String documentPath, Map<String, Object> replaceVariables, String outputPath) throws Exception {
