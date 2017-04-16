@@ -1,0 +1,54 @@
+{
+  "document":{
+    "documentId": "123456789",
+    "documentTypeId": "123456789",
+    "ownerTypeId": 0,
+    "legalAid": true,
+    "driverInsurance": true,
+    "paymentTypeId": 1,
+    "interPaymentValidation": 1,
+    "kmPerYear": 11.0,
+    "customer": {
+      "familyName": "Malfliet",
+      "firstname": "A Christian Irma",
+      "dob":"12/12/1989",
+      "emailAddress": "jan.cools7@telenet.be",
+      "tel":"003238878451",
+      "address": {
+        "streetName": "Nieuwstrat",
+        "houseNo":"5",
+        "boxNo": "1",
+        "postalCode": "2630",
+        "city":"Aartselaar",
+        "countryCode": "BE"
+      },
+
+      "genderCode": 1145,
+      "dGenderCode": 2,
+      "languageCode": 2,
+      "professionCategoryCodeId": 1130,
+      "professionCategoryCode": 13,
+      "usageId": 1,
+      "drivingLicenseIssuedOn":"12/12/2011",
+      "drivingLicenseNumber": "abcdefg123154",
+      "drivingLicenseCategory": "A",
+      "IBAN": "BE09 1324 1234 1256",
+      "claimsForPastFiveYears": 0,
+      "claimsForPastFiveYearsInFault": 0,
+      "vehicle": {
+        "carTypeId": 1,
+        "chassisNumber": "abcdefg123154",
+        "firstDateTraffic":"12/12/2000",
+        "licensePlate": "abcdefg123154",
+        "price": 1616699.70,
+        "make":"Fiat",
+        "type": "500 C - Lounge",
+        "kilowatts": 0.0,
+        "garageTypeId": 1,
+        "expectableSpentLiveryDate":"11/11/2011",
+        "odoMeterCar": 1234.0,
+        "trailerId": 1
+      }
+    }
+  }
+}

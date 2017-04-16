@@ -1,0 +1,18 @@
+if(custom.less(drivingLicenseIssuedOn_date,3)){
+    return "not accepted";
+}else if(custom.less(dob_date,21)){
+    return "not accepted";
+}else if(custom.less(dob_date, 24) && kilowatts > 95){
+    return "not accepted";
+}else if(custom.less(dob_date, 30) && kilowatts > 115){
+    return "not accepted";
+}else if(custom.old(dob_date, 80)){
+     return "not accepted";
+}else if(custom.less(dob_date, 24) && claimsForPastFiveYearsInFault > 0){
+      return "not accepted";
+}else if(custom.less(dob_date, 24) && claimsForPastFiveYearsInFault > 1){
+      return "not accepted";
+}else if(custom.old(dob_date, 30) && claimsForPastFiveYearsInFault > 2){
+      return "not accepted";
+}
+return "accepted";
