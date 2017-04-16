@@ -6,6 +6,7 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.context.annotation.ComponentScan;
 
 
+
 @SpringBootApplication(scanBasePackages = "org.extras")
 @EnableConfigurationProperties
 public class Starter {
